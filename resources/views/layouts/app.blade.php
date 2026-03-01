@@ -6,6 +6,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>@yield('title')</title>
+    <base href="{{ url('/') }}/">
     <meta name="author" content="Themeholy" />
     <meta name="description" content="@yield('meta_description')">
     <meta name="keywords" content="@yield('meta_keywords')">
@@ -81,9 +82,8 @@
                 <i class="fal fa-times"></i>
             </button>
             <div class="mobile-logo">
-                <a class="icon-masking" href="/"><span data-mask-src="assets/img/logo.svg"
-                        class="mask-icon"></span><img src="assets/img/2-removebg-preview_(1).png" style="width: 150px;"
-                        alt="Webteck" /></a>
+                <a class="icon-masking" href="/"><span data-mask-src="assets/img/logo.svg" class="mask-icon"></span><img
+                        src="assets/img/2-removebg-preview_(1).png" style="width: 150px;" alt="Webteck" /></a>
             </div>
             <div class="th-mobile-menu">
                 <ul>
@@ -148,8 +148,7 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a class="icon-masking" href="/"
-                                    style="display:inline-flex; align-items:center;">
+                                <a class="icon-masking" href="/" style="display:inline-flex; align-items:center;">
 
 
 
@@ -265,19 +264,26 @@
                             <h3 class="widget_title">IT SERVICES</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li>
-                                        <a href="service-details.html">Web Development</a>
-                                    </li>
-                                    <li>
-                                        <a href="agenticAI.html">Agentic AI</a>
-                                    </li>
-                                    <li>
-                                        <a href="SEO.html">SEO</a>
-                                    </li>
-                                    <li>
-                                        <a href="Graphic.html">Graphic Designing</a>
-                                    </li>
+                                    @php
+                                        $services = config('services-data.services');
+                                        // You can filter specific services or display all
+                                        $displayServices = $services; // Display all services
 
+                                        // Or if you want specific ones in a particular order:
+                                        // $serviceNames = ['Web Development', 'Agentic AI', 'SEO', 'Graphic Designing'];
+                                        // $displayServices = collect($services)->whereIn('name', $serviceNames)->sortBy(function($service) use ($serviceNames) {
+                                        //     return array_search($service['name'], $serviceNames);
+                                        // });
+                                    @endphp
+
+                                    @foreach($displayServices as $service)
+                                        <li>
+                                            <a
+                                                href="{{ route('service.detail', ['service' => Str::slug($service['name'])]) }}">
+                                                {{ $service['name'] }}
+                                            </a>
+                                        </li>
+                                    @endforeach
                                 </ul>
                             </div>
                         </div>
@@ -363,4 +369,5 @@
     <script src="assets/js/imageRevealHover.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
