@@ -1,7 +1,17 @@
 @extends('layouts.app')
-@section('title', 'GPS Tracking Services | CT Softs LLC')
-@section('meta_description', 'Real-time GPS vehicle tracking for family safety and fleet management. Monitor speed, location, and driving behavior with easy plug-and-play installation.')
-@section('meta_keywords', 'GPS tracking, vehicle tracking, car tracker, fleet management, real-time GPS, OBD2 tracker, teen driving monitor, senior driver safety')
+
+@section('title', 'GPS Tracking Services | CT Softs LLC – Fleet Management, Real-Time GPS, OBD2 Trackers')
+
+@section('meta_description', 'CT Softs LLC provides advanced GPS tracking solutions in Connecticut, USA. Real‑time vehicle tracking, fleet management, OBD2 trackers, teen driver safety, and senior monitoring. Improve efficiency, reduce costs, and enhance safety with our easy plug‑and‑play devices and powerful software platform.')
+
+@section('meta_keywords', 'GPS tracking, vehicle tracking, car tracker, fleet management, real-time GPS, OBD2 tracker, teen driving monitor, senior driver safety, fleet tracking, asset tracking, GPS location, speed monitoring, driving behavior, geofencing, route optimization, fuel monitoring, vehicle diagnostics, logistics tracking, transportation management, Connecticut GPS tracking, USA fleet management, GPS software, vehicle tracking system, OBD2 device, plug and play tracker, family safety, teen driver monitoring, senior safety, fleet management software, GPS tracking company, CT Softs GPS, commercial fleet tracking, personal GPS tracker')
+
+@section('og_title', 'GPS Tracking Services | CT Softs LLC – Fleet Management & Real-Time Vehicle Tracking')
+@section('og_description', 'Advanced GPS tracking solutions from CT Softs LLC. Monitor vehicles, improve fleet efficiency, and protect loved ones with real‑time location, speed alerts, and driving behavior analysis. Based in Connecticut, serving the USA.')
+@section('og_image', asset('assets/img/gps-og-image.jpg'))
+
+@section('twitter_title', 'GPS Tracking Services | CT Softs LLC')
+@section('twitter_description', 'CT Softs LLC provides real‑time GPS tracking, fleet management, and OBD2 trackers for personal and commercial use. Enhance safety and efficiency.')
 
 @section('content')
     <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">

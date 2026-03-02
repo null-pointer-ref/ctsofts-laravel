@@ -1,8 +1,16 @@
 @extends('layouts.app')
 
 @section('title', 'About | CT Softs LLC')
-@section('meta_description', 'CTsofts is a leading software company delivering cutting-edge technology solutions to drive business growth and digital transformation.')
+@section('meta_description', 'CT Softs LLC is a premier software company in Connecticut, USA, specializing in web development, app development, digital marketing, SEO, and UI/UX design. We deliver digital transformation and technology solutions for business growth.')
+@section('meta_keywords', 'software company, web development, app development, digital marketing, SEO services, UI/UX design, Connecticut software company, USA web development, digital transformation, technology solutions, custom web development, ecommerce development, mobile app developers, website design company, leading software company, IT solutions, responsive web design, digital agency USA, Connecticut SEO, web design company in usa')
 
+@section('og_title', 'About CT Softs LLC | Leading Software Company in Connecticut')
+@section('og_description', 'CT Softs LLC delivers cutting-edge technology solutions including web development, app development, digital marketing, and SEO. Based in Connecticut, we drive business growth through digital transformation.')
+@section('og_image', asset('assets/img/about-og-image.jpg'))
+
+<!-- Twitter (optional - if not set, will use defaults from layout) -->
+@section('twitter_title', 'About CT Softs LLC')
+@section('twitter_description', 'Leading software company in Connecticut delivering digital transformation solutions.')
 @section('content')
     <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
         <div class="container">

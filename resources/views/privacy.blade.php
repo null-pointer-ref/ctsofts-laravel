@@ -1,7 +1,17 @@
 @extends('layouts.app')
-@section('title', 'Privacy Policy | CT Softs LLC')
-@section('meta_description', 'CT Softs LLC values your privacy. Learn how we collect, use, and protect your personal information in Connecticut, United States. We do not sell your data.')
-@section('meta_keywords', 'privacy policy, CT Softs LLC, Connecticut web development, digital marketing privacy, data protection USA, website privacy policy, SMS consent, Connecticut, United States, info@ctsofts.com')
+
+@section('title', 'Privacy Policy | CT Softs LLC – Software Company & Digital Marketing Agency in Connecticut')
+
+@section('meta_description', 'Read the Privacy Policy of CT Softs LLC, a leading software company and digital marketing agency in Connecticut, USA. Learn how we protect your personal information, data security practices, SMS consent terms, and your privacy rights. We do not sell your data.')
+
+@section('meta_keywords', 'privacy policy, CT Softs LLC privacy policy, Connecticut software company privacy, digital marketing agency privacy, web development data protection, data privacy USA, SMS consent terms, SMS privacy policy, STOP to opt out, data security practices, personal information protection, GDPR compliance, CCPA compliance, Connecticut privacy policy, USA data protection, IT company privacy, software development privacy, website privacy policy, info@ctsofts.com, CT Softs data handling, client data privacy, marketing data privacy, Connecticut, United States')
+
+@section('og_title', 'Privacy Policy | CT Softs LLC – Data Protection & Privacy')
+@section('og_description', 'CT Softs LLC values your privacy. Learn how we collect, use, and protect your personal information in Connecticut, United States. We do not sell your data. Read our full Privacy Policy.')
+@section('og_image', asset('assets/img/privacy-og-image.jpg'))
+
+@section('twitter_title', 'Privacy Policy | CT Softs LLC')
+@section('twitter_description', 'CT Softs LLC values your privacy. Learn how we collect, use, and protect your personal information in Connecticut, United States. We do not sell your data.')
 @section('content')
     <div class="container" style="
             max-width: 900px;

@@ -1,8 +1,17 @@
 @extends('layouts.app')
 
-@section('title', 'Contact Us | CT Softs LLC')
+@section('title', 'Contact Us | CT Softs LLC – Software & Digital Marketing Agency in Connecticut')
 
-@section('meta_description', 'CTsofts is a leading software company delivering cutting-edge technology solutions to drive business growth and digital transformation.')
+@section('meta_description', 'Contact CT Softs LLC, a leading software company in Connecticut offering web development, mobile app development, digital marketing, SEO, AI, and GPS tracking solutions. Get a free consultation today!')
+
+@section('meta_keywords', 'contact software company, contact CT Softs, Connecticut software company, web development agency contact, digital marketing agency Connecticut, SEO services Connecticut, mobile app developers contact, custom web development company, IT services Connecticut, software solutions, free consultation, get in touch, CT Softs LLC, software company USA, technology solutions, enterprise solutions, IT support, 24/7 support, agentic AI, GPS tracking, fleet management, OBD2 tracker, social media marketing, graphic design, data analysis, web development company near me, software development companies, hire software developer, digital transformation agency, Connecticut IT company, USA web development, e commerce website development, wordpress developer contact')
+
+@section('og_title', 'Contact CT Softs LLC | Software & Digital Marketing Agency')
+@section('og_description', 'Reach out to CT Softs LLC for expert software development, digital marketing, AI, and GPS tracking solutions. Based in Connecticut, we help businesses grow with innovative technology.')
+@section('og_image', asset('assets/img/contact-og-image.jpg'))
+
+@section('twitter_title', 'Contact CT Softs LLC')
+@section('twitter_description', 'Get in touch with CT Softs LLC for custom software, web, mobile, AI, and digital marketing solutions.')
 
 @section('content')
   <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
@@ -38,8 +47,7 @@
                 Our Office Address
               </h4>
               <span class="contact-info_text">
-                609 W Johnson Ave, Cheshire, CT 06410,<br>
-                United States of America
+                609 W Johnson Ave, Cheshire, CT 06410, USA
               </span>
             </div>
           </div>
@@ -141,7 +149,7 @@
               </div>
               <div class="form-group col-12">
                 <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message">
-                      </textarea>
+                        </textarea>
                 <i class="fal fa-comment">
                 </i>
               </div>

@@ -1,10 +1,17 @@
 @extends('layouts.app')
 
-@section('title', 'Home | CT Softs LLC')
+@section('title', 'CT Softs LLC – Leading Software & Digital Marketing Agency in Connecticut')
 
-@section('meta_description', 'CTsofts is a leading software company delivering cutting-edge technology solutions to drive business growth and digital transformation.')
+@section('meta_description', 'CT Softs LLC is a premier software company in Connecticut offering web development, mobile app development, digital marketing, SEO, AI solutions, GPS tracking & more. Drive digital transformation and business growth with our technology solutions.')
 
-@section('meta_keywords', 'web development, website development, software development, software engineer, software developer, IT company, IT services, digital marketing agency, SEO agency, mobile app developers, wordpress developer, website design, e commerce website, custom web development, web development company, software development companies, IT support, data analysis, graphic design, social media marketing, agentic AI, GPS tracking, digital transformation, business growth, software solutions, technology solutions, enterprise solutions, web applications, IT consulting, 24/7 support, SEO services, fleet management, real-time GPS, OBD2 tracker')
+@section('meta_keywords', 'web development, website development, software development, software engineer, software developer, IT company, IT services, digital marketing agency, SEO agency, mobile app developers, wordpress developer, website design, e commerce website, custom web development, web development company, software development companies, IT support, data analysis, graphic design, social media marketing, agentic AI, GPS tracking, digital transformation, business growth, software solutions, technology solutions, enterprise solutions, web applications, IT consulting, 24/7 support, SEO services, fleet management, real-time GPS, OBD2 tracker, Connecticut software company, USA web development, responsive web design, custom software development, ecommerce development, fleet tracking, AI development, digital agency, SEO services Connecticut')
+
+@section('og_title', 'CT Softs LLC | Software & Digital Marketing Agency in Connecticut')
+@section('og_description', 'CT Softs LLC delivers cutting-edge software, web, mobile, AI, and digital marketing solutions. Based in Connecticut, we drive business growth through innovation and technology.')
+@section('og_image', asset('assets/img/home-og-image.jpg'))
+
+@section('twitter_title', 'CT Softs LLC | Software & Digital Marketing Agency')
+@section('twitter_description', 'CT Softs LLC delivers cutting-edge software, web, mobile, AI, and digital marketing solutions.')
 
 @section('content')
     <div class="th-hero-wrapper hero-4" id="hero">
@@ -25,7 +32,7 @@
                     Innovative <strong>software development</strong>, <strong>web development</strong>, and <strong>digital marketing</strong> services designed to accelerate your business growth. Partner with CTsofts for cutting-edge technology and expert <strong>digital transformation</strong>.
                 </p>
                 <div class="btn-group">
-                    <a href="{{ route('about') }}" class="th-btn">ABOUT US<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    <a href="tel:+12038057525" class="th-btn">Call Now<i class="fa-regular fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </div>
@@ -81,7 +88,7 @@
                                     <p class="achivement-box_text">
                                         CTsofts specializes in <strong>custom software development</strong>, <strong>web applications</strong>, and <strong>enterprise solutions</strong> tailored to your business needs. From <strong>e‑commerce platforms</strong> to <strong>AI‑powered tools</strong>, we deliver high‑quality code.
                                     </p>
-                                    <a href="{{ route('service.detail', ['service' => 'web-development']) }}" class="th-btn">Learn More</a>
+                                    <a href="{{ route('service.detail', ['service' => 'web-development']) }}" class="th-btn">Get Free Consultation</a>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +99,7 @@
                                     <p class="achivement-box_text">
                                         With years of experience, CTsofts has successfully delivered <strong>1000+ projects</strong> across industries – <strong>web development</strong>, <strong>mobile apps</strong>, <strong>SEO</strong>, and <strong>IT support</strong>. Our clients trust us to achieve their digital goals.
                                     </p>
-                                    <a href="{{ route('service.detail', ['service' => 'data-analysis']) }}" class="th-btn">Learn More</a>
+                                    <a href="{{ route('service.detail', ['service' => 'data-analysis']) }}" class="th-btn">Get Free Consultation</a>
                                 </div>
                             </div>
                         </div>
@@ -215,7 +222,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="{{ route('about') }}" class="th-btn">LEARN MORE<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                    <a href="{{ route('about') }}" class="th-btn">Get Free Consultation<i class="fa-regular fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </div>

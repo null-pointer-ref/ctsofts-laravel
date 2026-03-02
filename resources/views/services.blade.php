@@ -1,8 +1,17 @@
 @extends('layouts.app')
 
-@section('title', 'Services | CT Softs LLC')
+@section('title', 'Services | CT Softs LLC – Web Development, Digital Marketing, AI & IT Solutions')
 
-@section('meta_description', 'KarachiCleaners offers trusted home, office and deep cleaning services in Karachi. Book professional cleaners today.')
+@section('meta_description', 'CT Softs LLC offers expert web development, mobile app development, digital marketing, SEO, AI solutions, GPS tracking, and IT consulting in Connecticut, USA. Custom software, e‑commerce, fleet management, and 24/7 support. Get a free consultation today.')
+
+@section('meta_keywords', 'web development, website development, mobile app development, software development, digital marketing agency, SEO services, SEO agency, AI solutions, agentic AI, GPS tracking, fleet management, OBD2 tracker, IT services, IT consulting, IT support, custom web development, e commerce website, ecommerce development, wordpress developer, software engineer, software developer, data analysis, graphic design, social media marketing, technology solutions, software solutions, enterprise solutions, web applications, 24/7 support, Connecticut software company, USA web development, responsive web design, custom software development, IT company, digital transformation, business growth, technology consulting, real-time GPS, fleet tracking, CT Softs services')
+
+@section('og_title', 'CT Softs LLC Services | Web, Mobile, Digital Marketing, AI & GPS Solutions')
+@section('og_description', 'Explore the full range of services from CT Softs LLC: web development, mobile apps, digital marketing, SEO, AI, GPS tracking, and IT consulting. Based in Connecticut, serving the USA.')
+@section('og_image', asset('assets/img/services-og-image.jpg'))
+
+@section('twitter_title', 'CT Softs LLC Services | Software & Digital Marketing')
+@section('twitter_description', 'CT Softs LLC provides custom web development, mobile apps, digital marketing, AI, GPS tracking, and IT solutions.')
 
 @section('content')
   <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">

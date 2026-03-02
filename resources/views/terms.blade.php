@@ -1,7 +1,17 @@
 @extends('layouts.app')
-@section('title', 'Terms & Conditions | CT Softs LLC')
-@section('meta_description', 'Review the Terms & Conditions for CT Softs LLC in Connecticut, United States. Learn about our service terms, SMS communication policies, and intellectual property rights.')
-@section('meta_keywords', 'terms and conditions, CT Softs LLC, Connecticut web development, digital marketing terms, SMS terms, service agreement, legal terms, website terms of use, Connecticut, United States, info@ctsofts.com')
+
+@section('title', 'Terms & Conditions | CT Softs LLC – Software Company & Digital Marketing Agency in Connecticut')
+
+@section('meta_description', 'Read the Terms & Conditions of CT Softs LLC, a leading software company and digital marketing agency in Connecticut, USA. Learn about our service terms, SMS communication policies, intellectual property rights, liability limitations, and website terms of use.')
+
+@section('meta_keywords', 'terms and conditions, CT Softs LLC terms, Connecticut software company terms, digital marketing agency terms, web development terms, software development agreement, mobile app development contract, SMS terms, SMS consent terms, STOP to opt out, HELP for assistance, service agreement, legal terms, website terms of use, IT services contract, data protection terms, intellectual property rights, liability limitations, Connecticut, United States, info@ctsofts.com, software company Connecticut, digital marketing Connecticut, web development contract, SEO services terms, AI solutions terms, GPS tracking terms, fleet management terms')
+
+@section('og_title', 'Terms & Conditions | CT Softs LLC')
+@section('og_description', 'Review the Terms & Conditions for CT Softs LLC in Connecticut, United States. Learn about our service terms, SMS communication policies, intellectual property rights, and more.')
+@section('og_image', asset('assets/img/terms-og-image.jpg'))
+
+@section('twitter_title', 'Terms & Conditions | CT Softs LLC')
+@section('twitter_description', 'Review the Terms & Conditions for CT Softs LLC in Connecticut, United States. Learn about our service terms, SMS communication policies, and intellectual property rights.')
 @section('content')
     <div class="container" style="
             max-width: 900px;
