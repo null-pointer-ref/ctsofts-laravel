@@ -13,7 +13,7 @@
         </h1>
         <ul class="breadcumb-menu">
           <li>
-            <a href="index.html">
+            <a href="/">
               Home
             </a>
           </li>
@@ -38,9 +38,8 @@
                 Our Office Address
               </h4>
               <span class="contact-info_text">
-                Burnsville, MN 55337 Streat,
-                <br>
-                United States
+                609 W Johnson Ave, Cheshire, CT 06410,<br>
+                United States of America
               </span>
             </div>
           </div>
@@ -56,12 +55,7 @@
                 Call Us Anytime
               </h4>
               <span class="contact-info_text">
-                <a href="tel:+65485965789">
-                  (+65) - 48596 - 5789
-                </a>
-                <a href="tel:+65485965789">
-                  +65-48596-5789
-                </a>
+                <a href="tel:+12038057525">+1 203-805-7525</a>
               </span>
             </div>
           </div>
@@ -77,12 +71,7 @@
                 Send An Email
               </h4>
               <span class="contact-info_text">
-                <a href="mailto:info.example@gmail.com">
-                  info.example@gmail.com
-                </a>
-                <a href="mailto:info@webteck.com">
-                  info@webteck.com
-                </a>
+                <a href="mailto:info@ctsofts.com">info@ctsofts.com</a>
               </span>
             </div>
           </div>
@@ -152,7 +141,7 @@
               </div>
               <div class="form-group col-12">
                 <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message">
-                    </textarea>
+                      </textarea>
                 <i class="fal fa-comment">
                 </i>
               </div>

@@ -115,15 +115,16 @@
                         <div class="header-links">
                             <ul>
                                 <li>
-                                    <i class="fas fa-map-location"></i>609 W Johnson Ave, Cheshire, CT, United States,
-                                    Connecticut
+                                    <i class="fas fa-map-location"></i>609 W Johnson Ave, Cheshire, CT 06410, United
+                                    States of America
                                 </li>
                                 <li>
-                                    <i class="fas fa-phone"></i><a href="tel:+1539873657">+1 203-805-7525</a>
+                                    <i class="fas fa-phone"></i>
+                                    <a href="tel:+12038057525">+1 203-805-7525</a>
                                 </li>
                                 <li>
-                                    <i class="fas fa-envelope"></i><a
-                                        href="mailto:info@ctsofts.com">info@ctsofts.com</a>
+                                    <i class="fas fa-envelope"></i>
+                                    <a href="mailto:info@ctsofts.com">info@ctsofts.com</a>
                                 </li>
                             </ul>
                         </div>
