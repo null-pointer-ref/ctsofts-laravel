@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Services')
+@section('title', 'Services | CT Softs LLC')
 
 @section('meta_description', 'KarachiCleaners offers trusted home, office and deep cleaning services in Karachi. Book professional cleaners today.')
 

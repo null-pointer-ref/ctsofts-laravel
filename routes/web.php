@@ -10,6 +10,8 @@ Route::get('/services', fn() => view('services', ['services' => config('services
 Route::view('/about', 'about')->name('about');
 Route::view('/gallery', 'gallery')->name('gallery');
 Route::view('/contact', 'contact')->name('contact');
+Route::view('/terms', 'terms')->name('terms');
+Route::view('/privacy', 'privacy')->name('privacy');
 
 // Services listing
 Route::get('/services', function () {

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'About')
+@section('title', 'About | CT Softs LLC')
 @section('meta_description', 'CTsofts is a leading software company delivering cutting-edge technology solutions to drive business growth and digital transformation.')
 
 @section('content')

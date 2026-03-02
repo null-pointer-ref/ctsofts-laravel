@@ -249,11 +249,14 @@
                                     <li>
                                         <a href="/about">About Us</a>
                                     </li>
-
-
-
                                     <li>
                                         <a href="/contact">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="/terms">Terms & Conditions</a>
+                                    </li>
+                                    <li>
+                                        <a href="/privacy">Privacy Policy</a>
                                     </li>
                                 </ul>
                             </div>
@@ -334,7 +337,7 @@
                     <div class="col-lg-6">
                         <p class="copyright-text">
                             Copyright <i class="fal fa-copyright"></i> 2026 <a
-                                href="https://www.bytegensolution.com/">bytegensolution</a>. All Rights Reserved.
+                                href="https://www.ctsofts.com/">Ctsofts</a>. All Rights Reserved.
                         </p>
                     </div>
 

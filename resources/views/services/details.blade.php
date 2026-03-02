@@ -1,6 +1,5 @@
 @extends('layouts.app')
-
-@section('title', $service['title'] . ' - CTsofts')
+@section('title', $service['title'] . ' | CT Softs LLC')
 @section('meta_description', $service['meta_description'])
 @section('meta_keywords', $service['keywords'])
 
