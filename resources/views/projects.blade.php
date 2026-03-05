@@ -22,7 +22,7 @@
                 </h1>
                 <ul class="breadcumb-menu">
                     <li>
-                        <a href="index.html">
+                        <a href="/">
                             Home
                         </a>
                     </li>
