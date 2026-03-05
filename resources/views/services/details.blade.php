@@ -142,6 +142,9 @@
                                                 @break
                                         @endswitch
                                     </ul>
+                                    <div class="btn-group" style="margin-top: 75px;">
+                    <a href="tel:+12038057525" class="th-btn">Call Now<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                </div>
                                 </div>
                             </div>
                         </div>

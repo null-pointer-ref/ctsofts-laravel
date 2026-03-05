@@ -51,7 +51,7 @@
                   {{ $service['title'] }}
                 </a>
               </h3>
-              <p class="service-card_text">
+              <p class="service-card_text" style="display:-webkit-box; -webkit-line-clamp:5; -webkit-box-orient:vertical; overflow:hidden;">
                 {{ $service['description'] }}
               </p>
               <a href="{{ route('service.detail', ['service' => Str::slug($service['name'])]) }}" class="th-btn">
@@ -94,7 +94,7 @@
               </span>
             </h2>
           </div>
-          <a href="contact.html" class="th-btn style3">
+          <a href="/contact" class="th-btn style3">
             Get In Touch
           </a>
         </div>

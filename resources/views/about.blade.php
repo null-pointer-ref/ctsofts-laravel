@@ -93,7 +93,7 @@
                             </div>
                         </div>
                         <div class="btn-group">
-                            <a href="about.html" class="th-btn">DISCOVER MORE<i
+                            <a href="/about" class="th-btn">DISCOVER MORE<i
                                     class="fa-regular fa-arrow-right ms-2"></i></a>
                             <div class="call-btn">
                                 <div class="play-btn">

@@ -94,7 +94,8 @@
                     <li class="menu-item-has-children mega-menu-wrap">
                         <a href="/">Home</a>
                     </li>
-                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/projects">Projects</a></li>
                     <li><a href="/services">Services</a></li>
                     <li><a href="/contact">Contact</a></li>
                 </ul>
@@ -141,7 +142,8 @@
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a class="icon-masking" href="/" style="display:inline-flex; align-items:center; margin-top: -10px;">
+                                <a class="icon-masking" href="/"
+                                    style="display:inline-flex; align-items:center; margin-top: -10px;">
                                     <img src="assets/img/2-removebg-preview_(1).png" alt="Webteck"
                                         style="width:90px; height:90px; object-fit:contain;" />
                                 </a>
@@ -151,7 +153,8 @@
                             <nav class="main-menu d-none d-lg-inline-block" style="margin-bottom: 20px;">
                                 <ul>
                                     <li><a href="/">Home</a></li>
-                                    <li><a href="/about">About Us</a></li>
+                                    <li><a href="/about">About</a></li>
+                                    <li><a href="/projects">Projects</a></li>
                                     <li><a href="/services">Services</a></li>
                                     <li><a href="/contact">Contact</a></li>
                                 </ul>
@@ -202,8 +205,9 @@
                             <h3 class="widget_title">Quick Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="/about">About Us</a></li>
-                                    <li><a href="/contact">Contact Us</a></li>
+                                    <li><a href="/about">About</a></li>
+                                    <li><a href="/projects">Projects</a></li>
+                                    <li><a href="/contact">Contact</a></li>
                                     <li><a href="/terms">Terms & Conditions</a></li>
                                     <li><a href="/privacy">Privacy Policy</a></li>
                                 </ul>
@@ -231,7 +235,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-auto">
+                    <!-- <div class="col-md-6 col-xl-auto">
                         <div class="widget footer-widget">
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
@@ -267,7 +271,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

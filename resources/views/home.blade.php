@@ -153,7 +153,10 @@
                                                 <a href="{{ route('service.detail', ['service' => Str::slug($service['name'])]) }}">{{ $service['name'] }}</a>
                                             @endif
                                         </h3>
-                                        <p class="service-grid_text">{{ $service['description'] }}</p>
+                                        <p class="service-grid_text" 
+                                         style="display:-webkit-box; -webkit-line-clamp:6; -webkit-box-orient:vertical; overflow:hidden;">
+                                          {{ $service['description'] }}
+                                        </p>
                                         @if($service['name'] === 'GPS Tracking')
                                             <a href="{{ route('service.gps-tracking') }}" class="th-btn">Read More <i class="fas fa-arrow-right ms-2"></i></a>
                                         @else
@@ -223,99 +226,6 @@
                         </div>
                     </div>
                     <a href="{{ route('about') }}" class="th-btn">Get Free Consultation<i class="fa-regular fa-arrow-right ms-2"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <section class="space" id="project-sec">
-        <div class="container">
-            <div class="title-area text-center">
-                <div class="shadow-title">PROJECTS</div>
-                <span class="sub-title">
-                    <div class="icon-masking me-2">
-                        <span class="mask-icon" data-mask-src="assets/img/theme-img/title_shape_2.svg"></span>
-                        <img src="assets/img/theme-img/title_shape_2.svg" alt="shape" />
-                    </div>
-                    LATEST PROJECTS
-                </span>
-                <h2 class="sec-title">
-                    Our Recent Latest
-                    <span class="text-theme">Projects</span>
-                </h2>
-            </div>
-            <div class="slider-area">
-                <div class="swiper th-slider has-shadow" id="projectSlider2"
-                    data-slider-options='{"loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"}}}'>
-                    <div class="swiper-wrapper">
-                        @php
-                            $projects = [
-                                ['title' => 'IT Consultancy', 'desc' => 'Enterprise IT consulting and digital transformation for a global client.', 'img' => 'project_2_1.jpg'],
-                                ['title' => 'Web Development', 'desc' => 'Custom web application with React and Laravel for e‑commerce.', 'img' => 'project_2_2.jpg'],
-                                ['title' => 'Website Design', 'desc' => 'Responsive UI/UX design for a corporate website.', 'img' => 'project_2_3.jpg'],
-                                ['title' => 'SEO Optimization', 'desc' => 'Comprehensive SEO campaign boosting organic traffic by 200%.', 'img' => 'project_2_4.jpg'],
-                            ];
-                        @endphp
-                        @foreach($projects as $project)
-                            <div class="swiper-slide">
-                                <div class="project-grid">
-                                    <div class="project-grid_img">
-                                        <img src="assets/img/project/{{ $project['img'] }}" alt="{{ $project['title'] }} project by CTsofts – {{ $project['desc'] }}" />
-                                        <a href="assets/img/project/{{ $project['img'] }}" class="play-btn style3 popup-image"><i class="far fa-plus"></i></a>
-                                    </div>
-                                    <div class="project-grid_content">
-                                        <h3 class="box-title"><a href="project-details.html">{{ $project['title'] }}</a></h3>
-                                        <p class="project-grid_text">{{ $project['desc'] }}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        @endforeach
-                    </div>
-                </div>
-                <button data-slider-prev="#projectSlider2" class="slider-arrow style3 slider-prev"><i class="far fa-arrow-left"></i></button>
-                <button data-slider-next="#projectSlider2" class="slider-arrow style3 slider-next"><i class="far fa-arrow-right"></i></button>
-            </div>
-        </div>
-    </section>
-
-    <div class="bg-theme space-extra" data-bg-src="assets/img/bg/counter_bg_1.png">
-        <div class="container py-2">
-            <div class="row gy-40 justify-content-between">
-                <div class="col-6 col-lg-auto">
-                    <div class="counter-card">
-                        <div class="counter-card_icon"><img src="assets/img/icon/counter_1_1.svg" alt="Finished projects counter" /></div>
-                        <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">986</span>+</h2>
-                            <p class="counter-card_text">Finished Project</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-auto">
-                    <div class="counter-card">
-                        <div class="counter-card_icon"><img src="assets/img/icon/counter_1_2.svg" alt="Happy clients counter" /></div>
-                        <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">896</span>+</h2>
-                            <p class="counter-card_text">Happy Clients</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-auto">
-                    <div class="counter-card">
-                        <div class="counter-card_icon"><img src="assets/img/icon/counter_1_3.svg" alt="Skilled experts counter" /></div>
-                        <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">396</span>+</h2>
-                            <p class="counter-card_text">Skilled Experts</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-auto">
-                    <div class="counter-card">
-                        <div class="counter-card_icon"><img src="assets/img/icon/counter_1_4.svg" alt="Honorable awards counter" /></div>
-                        <div class="media-body">
-                            <h2 class="counter-card_number"><span class="counter-number">496</span>+</h2>
-                            <p class="counter-card_text">Honorable Awards</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
